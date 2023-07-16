@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "purgecss": "purgecss --config purgecss.config.js --output src/styles/purgecss/"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "chart.js": "3.9.1",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-chartjs-2": "4.3.1",
+    "react-dom": "18.2.0",
+    "@fontsource/roboto": "^5.0.4"
+  },
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  }
+}
